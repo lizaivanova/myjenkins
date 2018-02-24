@@ -1,5 +1,5 @@
 String basePath = 'example1'
-String repo = 'sheehan/gradle-example'
+String repo = 'lizaivanova/myjenkins'
 
 folder(basePath) {
     description 'This example shows basic folder/job creation.'
