@@ -20,6 +20,8 @@ dslFactory.freeStyleJob('elasticsearch-create-index-periodically-dsl') {
     }
 
     steps {
+        shell("echo 'before run'")
         shell("""${dslFactory.readFileFromWorkspace('scripts/example_a.sh')}""")
+        shell("echo 'before run'")
     }
 }
