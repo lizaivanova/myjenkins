@@ -27,7 +27,7 @@ dslFactory.freeStyleJob('elasticsearch-create-index-periodically-dsl') {
 
     steps {
         shell("""${dslFactory.readFileFromWorkspace('scripts/example_a.sh')}
-                    | message "
+                    | message
                     | echo 'the end' """.stripMargin())
     }
 }
